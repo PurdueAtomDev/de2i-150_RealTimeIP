@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Dec 21 03:25:20 2015
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : Realtime_IP
+Top-level Entity Name : Realtime_IP
+Family : Cyclone IV GX
+Device : EP4CGX150DF31C7
+Timing Models : Final
+Total logic elements : 4,022 / 149,760 ( 3 % )
+    Total combinational functions : 2,815 / 149,760 ( 2 % )
+    Dedicated logic registers : 2,747 / 149,760 ( 2 % )
+Total registers : 2747
+Total pins : 428 / 508 ( 84 % )
+Total virtual pins : 0
+Total memory bits : 5,272,610 / 6,635,520 ( 79 % )
+Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 1 / 8 ( 13 % )

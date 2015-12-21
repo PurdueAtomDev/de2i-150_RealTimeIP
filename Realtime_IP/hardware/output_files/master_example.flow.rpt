@@ -1,0 +1,183 @@
+Flow report for master_example
+Wed Dec 16 02:19:34 2015
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed Dec 16 02:19:34 2015       ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                      ; master_example                              ;
+; Top-level Entity Name              ; Realtime_IP                                 ;
+; Family                             ; Cyclone IV GX                               ;
+; Device                             ; EP4CGX150DF31C7                             ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 4,025 / 149,760 ( 3 % )                     ;
+;     Total combinational functions  ; 2,816 / 149,760 ( 2 % )                     ;
+;     Dedicated logic registers      ; 2,747 / 149,760 ( 2 % )                     ;
+; Total registers                    ; 2747                                        ;
+; Total pins                         ; 428 / 508 ( 84 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 5,272,610 / 6,635,520 ( 79 % )              ;
+; Embedded Multiplier 9-bit elements ; 0 / 720 ( 0 % )                             ;
+; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                               ;
+; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                               ;
+; Total GXB Transmitter Channel PCS  ; 0 / 8 ( 0 % )                               ;
+; Total GXB Transmitter Channel PMA  ; 0 / 8 ( 0 % )                               ;
+; Total PLLs                         ; 1 / 8 ( 13 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/16/2015 02:12:37 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; master_example      ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                                                                                                                                                 ;
++-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-------------+------------------+
+; Assignment Name                               ; Value                                                                                                                                                                                                                                                                                          ; Default Value  ; Entity Name ; Section Id       ;
++-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-------------+------------------+
+; AUTO_EXPORT_INCREMENTAL_COMPILATION           ; On                                                                                                                                                                                                                                                                                             ; Off            ; --          ; --               ;
+; AUTO_EXPORT_VER_COMPATIBLE_DB                 ; On                                                                                                                                                                                                                                                                                             ; Off            ; --          ; --               ;
+; COMPILER_SIGNATURE_ID                         ; 220037193208073.145024995633197                                                                                                                                                                                                                                                                ; --             ; --          ; --               ;
+; EDA_OUTPUT_DATA_FORMAT                        ; Verilog Hdl                                                                                                                                                                                                                                                                                    ; --             ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                           ; ModelSim (Verilog)                                                                                                                                                                                                                                                                             ; <None>         ; --          ; --               ;
+; EDA_TIME_SCALE                                ; 1 ps                                                                                                                                                                                                                                                                                           ; --             ; --          ; eda_simulation   ;
+; ENABLE_SIGNALTAP                              ; On                                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; INCREMENTAL_COMPILATION_EXPORT_FILE           ; master_example.qxp                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; INCREMENTAL_COMPILATION_EXPORT_FLATTEN        ; On                                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; INCREMENTAL_COMPILATION_EXPORT_PARTITION_NAME ; Top                                                                                                                                                                                                                                                                                            ; --             ; --          ; --               ;
+; INCREMENTAL_COMPILATION_EXPORT_POST_FIT       ; On                                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; INCREMENTAL_COMPILATION_EXPORT_POST_SYNTH     ; On                                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; INCREMENTAL_COMPILATION_EXPORT_ROUTING        ; On                                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP                        ; 85                                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP                        ; 0                                                                                                                                                                                                                                                                                              ; --             ; --          ; --               ;
+; MISC_FILE                                     ; v/sdram_pll.bsf                                                                                                                                                                                                                                                                                ; --             ; --          ; --               ;
+; MISC_FILE                                     ; v/sdram_pll.ppf                                                                                                                                                                                                                                                                                ; --             ; --          ; --               ;
+; MISC_FILE                                     ; v/Line_Buffer1.bsf                                                                                                                                                                                                                                                                             ; --             ; --          ; --               ;
+; MISC_FILE                                     ; v/Line_Buffer.bsf                                                                                                                                                                                                                                                                              ; --             ; --          ; --               ;
+; NUM_PARALLEL_PROCESSORS                       ; All                                                                                                                                                                                                                                                                                            ; --             ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                ; Half Signal Swing                                                                                                                                                                                                                                                                              ; --             ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                ; Half Signal Swing                                                                                                                                                                                                                                                                              ; --             ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS               ; Half Vccio                                                                                                                                                                                                                                                                                     ; --             ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS               ; Half Vccio                                                                                                                                                                                                                                                                                     ; --             ; --          ; --               ;
+; PARTITION_COLOR                               ; 16764057                                                                                                                                                                                                                                                                                       ; --             ; Realtime_IP ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL           ; PLACEMENT_AND_ROUTING                                                                                                                                                                                                                                                                          ; --             ; Realtime_IP ; Top              ;
+; PARTITION_NETLIST_TYPE                        ; SOURCE                                                                                                                                                                                                                                                                                         ; --             ; Realtime_IP ; Top              ;
+; POWER_BOARD_THERMAL_MODEL                     ; None (CONSERVATIVE)                                                                                                                                                                                                                                                                            ; --             ; --          ; --               ;
+; POWER_PRESET_COOLING_SOLUTION                 ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                                                                                                                                                          ; --             ; --          ; --               ;
+; PROJECT_OUTPUT_DIRECTORY                      ; output_files                                                                                                                                                                                                                                                                                   ; --             ; --          ; --               ;
+; SLD_FILE                                      ; db/stp_new_auto_stripped.stp                                                                                                                                                                                                                                                                   ; --             ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                           ; 110                                                                                                                                                                                                                                                                                            ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                          ; sld_signaltap                                                                                                                                                                                                                                                                                  ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                                                                                                                        ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_NODE_INFO=805334528                                                                                                                                                                                                                                                                        ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                                                                                                                         ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                                                                                                                                  ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_SEGMENT_SIZE=65536                                                                                                                                                                                                                                                                         ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                                                                                                                                     ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                                                                                                                                 ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_STATE_BITS=11                                                                                                                                                                                                                                                                              ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                                                                                                                         ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                                                                                                                                   ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                                                                                                                                                      ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                                                                                                                            ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_SAMPLE_DEPTH=65536                                                                                                                                                                                                                                                                         ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                                                                                                                                       ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                                                                                                                           ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                                                                                                                                   ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                                                                                                                                  ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_DATA_BITS=79                                                                                                                                                                                                                                                                               ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_TRIGGER_BITS=79                                                                                                                                                                                                                                                                            ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_STORAGE_QUALIFIER_BITS=79                                                                                                                                                                                                                                                                  ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --             ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT                 ; SLD_INVERSION_MASK_LENGTH=267                                                                                                                                                                                                                                                                  ; --             ; --          ; auto_signaltap_0 ;
+; TOP_LEVEL_ENTITY                              ; Realtime_IP                                                                                                                                                                                                                                                                                    ; master_example ; --          ; --               ;
+; USE_SIGNALTAP_FILE                            ; stp_new.stp                                                                                                                                                                                                                                                                                    ; --             ; --          ; --               ;
++-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-------------+------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:55     ; 1.0                     ; 1523 MB             ; 00:01:55                           ;
+; Fitter                    ; 00:01:58     ; 3.4                     ; 2094 MB             ; 00:03:33                           ;
+; Assembler                 ; 00:00:15     ; 1.0                     ; 1044 MB             ; 00:00:13                           ;
+; TimeQuest Timing Analyzer ; 00:00:38     ; 2.2                     ; 1433 MB             ; 00:00:28                           ;
+; EDA Netlist Writer        ; 00:00:19     ; 1.0                     ; 1355 MB             ; 00:00:16                           ;
+; Database Export           ; 00:00:52     ; 1.0                     ; 1425 MB             ; 00:00:42                           ;
+; Total                     ; 00:05:57     ; --                      ; --                  ; 00:07:07                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                  ;
++---------------------------+------------------------------+---------+------------+----------------+
+; Module Name               ; Machine Hostname             ; OS Name ; OS Version ; Processor type ;
++---------------------------+------------------------------+---------+------------+----------------+
+; Analysis & Synthesis      ; ecegrid-thin4.ecn.purdue.edu ; Red Hat ; 6          ; x86_64         ;
+; Fitter                    ; ecegrid-thin4.ecn.purdue.edu ; Red Hat ; 6          ; x86_64         ;
+; Assembler                 ; ecegrid-thin4.ecn.purdue.edu ; Red Hat ; 6          ; x86_64         ;
+; TimeQuest Timing Analyzer ; ecegrid-thin4.ecn.purdue.edu ; Red Hat ; 6          ; x86_64         ;
+; EDA Netlist Writer        ; ecegrid-thin4.ecn.purdue.edu ; Red Hat ; 6          ; x86_64         ;
+; Database Export           ; ecegrid-thin4.ecn.purdue.edu ; Red Hat ; 6          ; x86_64         ;
++---------------------------+------------------------------+---------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off master_example -c master_example
+quartus_fit --read_settings_files=off --write_settings_files=off master_example -c master_example
+quartus_asm --read_settings_files=off --write_settings_files=off master_example -c master_example
+quartus_sta master_example -c master_example
+quartus_eda --read_settings_files=off --write_settings_files=off master_example -c master_example
+quartus_cdb master_example -c master_example --export_database=/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/export_db
+
+
+

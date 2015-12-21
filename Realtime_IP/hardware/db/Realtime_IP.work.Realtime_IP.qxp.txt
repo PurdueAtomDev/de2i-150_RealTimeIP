@@ -1,0 +1,175 @@
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
++------------------------------------------------------------------------+
+; Quartus II QXP Design File                                             ;
++------------------+-----------------------------------------------------+
+; Field            ; Value                                               ;
++------------------+-----------------------------------------------------+
+; Entity           ; Realtime_IP                                         ;
+; Case Sensitive   ;                                                     ;
+; QXP Source       ; master_example.qxp                                  ;
+; Software Version ; Version 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Date             ; Mon Dec 21 03:14:43 2015                            ;
+; Contents         ; Netlist Only                                        ;
+; Family           ; EP4CGX150DF31C7                                     ;
+; Device           ; STINGRAY4F896C7                                     ;
++------------------+-----------------------------------------------------+
+
++-----------------------------------------------------------------+
+; Boundary Ports                                                  ;
++---------------------+--------+----------------------------------+
+; Port Name           ; Type   ; Default Value                    ;
++---------------------+--------+----------------------------------+
+; CLOCK_50            ; input  ; 0                                ;
+; CLOCK2_50           ; input  ; 0                                ;
+; CLOCK3_50           ; input  ; 0                                ;
+; SMA_CLKIN           ; input  ; 0                                ;
+; SMA_CLKOUT          ; output ; 0                                ;
+; LEDG [8:0]          ; output ; 000000000                        ;
+; LEDR [17:0]         ; output ; 000000000000000000               ;
+; KEY [3:0]           ; input  ; 0000                             ;
+; EX_IO [6:0]         ; bidir  ; 0000000                          ;
+; SW [17:0]           ; input  ; 000000000000000000               ;
+; HEX0 [6:0]          ; output ; 0000000                          ;
+; HEX1 [6:0]          ; output ; 0000000                          ;
+; HEX2 [6:0]          ; output ; 0000000                          ;
+; HEX3 [6:0]          ; output ; 0000000                          ;
+; HEX4 [6:0]          ; output ; 0000000                          ;
+; HEX5 [6:0]          ; output ; 0000000                          ;
+; HEX6 [6:0]          ; output ; 0000000                          ;
+; HEX7 [6:0]          ; output ; 0000000                          ;
+; LCD_BLON            ; output ; 0                                ;
+; LCD_DATA [7:0]      ; bidir  ; 00000000                         ;
+; LCD_EN              ; output ; 0                                ;
+; LCD_ON              ; output ; 0                                ;
+; LCD_RS              ; output ; 0                                ;
+; LCD_RW              ; output ; 0                                ;
+; UART_CTS            ; output ; 0                                ;
+; UART_RTS            ; input  ; 0                                ;
+; UART_RXD            ; input  ; 0                                ;
+; UART_TXD            ; output ; 0                                ;
+; PS2_CLK             ; bidir  ; 0                                ;
+; PS2_CLK2            ; bidir  ; 0                                ;
+; PS2_DAT             ; bidir  ; 0                                ;
+; PS2_DAT2            ; bidir  ; 0                                ;
+; SD_CLK              ; output ; 0                                ;
+; SD_CMD              ; bidir  ; 0                                ;
+; SD_DAT [3:0]        ; bidir  ; 0000                             ;
+; SD_WP_N             ; input  ; 0                                ;
+; VGA_B [7:0]         ; output ; 00000000                         ;
+; VGA_BLANK_N         ; output ; 0                                ;
+; VGA_CLK             ; output ; 0                                ;
+; VGA_G [7:0]         ; output ; 00000000                         ;
+; VGA_HS              ; output ; 0                                ;
+; VGA_R [7:0]         ; output ; 00000000                         ;
+; VGA_SYNC_N          ; output ; 0                                ;
+; VGA_VS              ; output ; 0                                ;
+; AUD_ADCDAT          ; input  ; 0                                ;
+; AUD_ADCLRCK         ; bidir  ; 0                                ;
+; AUD_BCLK            ; bidir  ; 0                                ;
+; AUD_DACDAT          ; output ; 0                                ;
+; AUD_DACLRCK         ; bidir  ; 0                                ;
+; AUD_XCK             ; output ; 0                                ;
+; EEP_I2C_SCLK        ; output ; 0                                ;
+; EEP_I2C_SDAT        ; bidir  ; 0                                ;
+; I2C_SCLK            ; output ; 0                                ;
+; I2C_SDAT            ; bidir  ; 0                                ;
+; ENET0_GTX_CLK       ; output ; 0                                ;
+; ENET0_INT_N         ; input  ; 0                                ;
+; ENET0_LINK100       ; input  ; 0                                ;
+; ENET0_MDC           ; output ; 0                                ;
+; ENET0_MDIO          ; bidir  ; 0                                ;
+; ENET0_RST_N         ; output ; 0                                ;
+; ENET0_RX_CLK        ; input  ; 0                                ;
+; ENET0_RX_COL        ; input  ; 0                                ;
+; ENET0_RX_CRS        ; input  ; 0                                ;
+; ENET0_RX_DATA [3:0] ; input  ; 0000                             ;
+; ENET0_RX_DV         ; input  ; 0                                ;
+; ENET0_RX_ER         ; input  ; 0                                ;
+; ENET0_TX_CLK        ; input  ; 0                                ;
+; ENET0_TX_DATA [3:0] ; output ; 0000                             ;
+; ENET0_TX_EN         ; output ; 0                                ;
+; ENET0_TX_ER         ; output ; 0                                ;
+; ENETCLK_25          ; input  ; 0                                ;
+; ENET1_GTX_CLK       ; output ; 0                                ;
+; ENET1_INT_N         ; input  ; 0                                ;
+; ENET1_LINK100       ; input  ; 0                                ;
+; ENET1_MDC           ; output ; 0                                ;
+; ENET1_MDIO          ; bidir  ; 0                                ;
+; ENET1_RST_N         ; output ; 0                                ;
+; ENET1_RX_CLK        ; input  ; 0                                ;
+; ENET1_RX_COL        ; input  ; 0                                ;
+; ENET1_RX_CRS        ; input  ; 0                                ;
+; ENET1_RX_DATA [3:0] ; input  ; 0000                             ;
+; ENET1_RX_DV         ; input  ; 0                                ;
+; ENET1_RX_ER         ; input  ; 0                                ;
+; ENET1_TX_CLK        ; input  ; 0                                ;
+; ENET1_TX_DATA [3:0] ; output ; 0000                             ;
+; ENET1_TX_EN         ; output ; 0                                ;
+; ENET1_TX_ER         ; output ; 0                                ;
+; TD_CLK27            ; input  ; 0                                ;
+; TD_DATA [7:0]       ; input  ; 00000000                         ;
+; TD_HS               ; input  ; 0                                ;
+; TD_RESET_N          ; output ; 0                                ;
+; TD_VS               ; input  ; 0                                ;
+; OTG_ADDR [1:0]      ; output ; 00                               ;
+; OTG_CS_N            ; output ; 0                                ;
+; OTG_DACK_N [1:0]    ; output ; 00                               ;
+; OTG_DATA [15:0]     ; bidir  ; 0000000000000000                 ;
+; OTG_DREQ [1:0]      ; input  ; 00                               ;
+; OTG_FSPEED          ; bidir  ; 0                                ;
+; OTG_INT [1:0]       ; input  ; 00                               ;
+; OTG_LSPEED          ; bidir  ; 0                                ;
+; OTG_RD_N            ; output ; 0                                ;
+; OTG_RST_N           ; output ; 0                                ;
+; OTG_WE_N            ; output ; 0                                ;
+; IRDA_RXD            ; input  ; 0                                ;
+; DRAM_ADDR [12:0]    ; output ; 0000000000000                    ;
+; DRAM_BA [1:0]       ; output ; 00                               ;
+; DRAM_CAS_N          ; output ; 0                                ;
+; DRAM_CKE            ; output ; 0                                ;
+; DRAM_CLK            ; output ; 0                                ;
+; DRAM_CS_N           ; output ; 0                                ;
+; DRAM_DQ [31:0]      ; bidir  ; 00000000000000000000000000000000 ;
+; DRAM_DQM [3:0]      ; output ; 0000                             ;
+; DRAM_RAS_N          ; output ; 0                                ;
+; DRAM_WE_N           ; output ; 0                                ;
+; SRAM_ADDR [19:0]    ; output ; 00000000000000000000             ;
+; SRAM_CE_N           ; output ; 0                                ;
+; SRAM_DQ [15:0]      ; bidir  ; 0000000000000000                 ;
+; SRAM_LB_N           ; output ; 0                                ;
+; SRAM_OE_N           ; output ; 0                                ;
+; SRAM_UB_N           ; output ; 0                                ;
+; SRAM_WE_N           ; output ; 0                                ;
+; FL_ADDR [22:0]      ; output ; 00000000000000000000000          ;
+; FL_CE_N             ; output ; 0                                ;
+; FL_DQ [7:0]         ; bidir  ; 00000000                         ;
+; FL_OE_N             ; output ; 0                                ;
+; FL_RST_N            ; output ; 0                                ;
+; FL_RY               ; input  ; 0                                ;
+; FL_WE_N             ; output ; 0                                ;
+; FL_WP_N             ; output ; 0                                ;
+; D5M_D [11:0]        ; input  ; 000000000000                     ;
+; D5M_FVAL            ; input  ; 0                                ;
+; D5M_LVAL            ; input  ; 0                                ;
+; D5M_PIXLCLK         ; input  ; 0                                ;
+; D5M_RESET_N         ; output ; 0                                ;
+; D5M_SCLK            ; output ; 0                                ;
+; D5M_SDATA           ; bidir  ; 0                                ;
+; D5M_STROBE          ; input  ; 0                                ;
+; D5M_TRIGGER         ; output ; 0                                ;
+; D5M_XCLKIN          ; output ; 0                                ;
++---------------------+--------+----------------------------------+

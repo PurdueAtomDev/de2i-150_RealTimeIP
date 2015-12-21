@@ -1,0 +1,27 @@
+Quartus II Archive log --	/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/master_example.qarlog
+
+Archive:	/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/master_example.qar
+Date:		Wed Dec 16 02:32:08 2015
+Quartus II 64-Bit		15.0.0 Build 145 04/22/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.atm
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.dpi
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.hdbx
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.logdb
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.map.kpt
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.qxp_info
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.rcf
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.cmp.scidsc
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.atm
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.dpi
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.hdbx
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.logdb
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.map.kpt
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.qxp_info
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/Realtime_IP.map.scidsc
+/home/ecegridfs/a/mg198/Project/Realtime_IP/hardware/db/Realtime_IP_tmp_qic_export/qic_export_file_list
+	======= Total: 16 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

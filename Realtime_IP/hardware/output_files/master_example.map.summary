@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Wed Dec 16 02:14:35 2015
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : master_example
+Top-level Entity Name : Realtime_IP
+Family : Cyclone IV GX
+Total logic elements : 4,245
+    Total combinational functions : 2,814
+    Dedicated logic registers : 2,747
+Total registers : 2747
+Total pins : 428
+Total virtual pins : 0
+Total memory bits : 5,272,610
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 1
